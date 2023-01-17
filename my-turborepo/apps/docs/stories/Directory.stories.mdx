@@ -1,0 +1,87 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+
+<Meta title="Example/Directory" />
+
+# Directory
+
+프로젝트의 디렉토리입니다.
+
+<br />
+<br />
+
+### APP
+
+#### [docs] UI컴포넌트, 유틸함수들을 Storybook을 통해 문서화하는 곳
+
+#### [web] UI컴포넌트를 Import 하여 Web View를 구현하는 곳
+
+#### [ui] UI컴포넌트를 저장하는 곳
+
+```bash
+📦my-turborepo
+ ┣ 📂apps
+ ┃ ┣ 📂docs
+ ┃ ┃ ┣ 📂.storybook
+ ┃ ┃ ┃ ┣ 📜main.js
+ ┃ ┃ ┃ ┗ 📜preview.js
+ ┃ ┃ ┣ 📂stories
+ ┃ ┃ ┃ ┣ 📂assets
+ ┃ ┃ ┃ ┃ ┣ 📜code-brackets.svg
+ ┃ ┃ ┃ ┃ ┣ 📜colors.svg
+ ┃ ┃ ┃ ┃ ┣ 📜comments.svg
+ ┃ ┃ ┃ ┃ ┣ 📜direction.svg
+ ┃ ┃ ┃ ┃ ┣ 📜flow.svg
+ ┃ ┃ ┃ ┃ ┣ 📜plugin.svg
+ ┃ ┃ ┃ ┃ ┣ 📜repo.svg
+ ┃ ┃ ┃ ┃ ┗ 📜stackalt.svg
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📜button.css
+ ┃ ┃ ┃ ┃ ┣ 📜Button.stories.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜Button.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜header.css
+ ┃ ┃ ┃ ┃ ┣ 📜Header.stories.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜Header.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜page.css
+ ┃ ┃ ┃ ┃ ┣ 📜Page.stories.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜Page.tsx
+ ┃ ┃ ┃ ┣ 📜Color.stories.mdx
+ ┃ ┃ ┃ ┣ 📜Directory.stories.mdx
+ ┃ ┃ ┃ ┗ 📜Introduction.stories.mdx
+ ┃ ┃ ┣ 📜.eslintrc.js
+ ┃ ┃ ┣ 📜next-env.d.ts
+ ┃ ┃ ┣ 📜next.config.js
+ ┃ ┃ ┣ 📜package.json
+ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┗ 📜tsconfig.json
+ ┃ ┗ 📂web
+ ┃ ┃ ┣ 📂pages
+ ┃ ┃ ┃ ┗ 📜index.tsx
+ ┃ ┃ ┣ 📜.eslintrc.js
+ ┃ ┃ ┣ 📜next-env.d.ts
+ ┃ ┃ ┣ 📜next.config.js
+ ┃ ┃ ┣ 📜package.json
+ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┗ 📜tsconfig.json
+ ┣ 📂packages
+ ┃ ┣ 📂eslint-config-custom
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┗ 📜package.json
+ ┃ ┣ 📂tsconfig
+ ┃ ┃ ┣ 📜base.json
+ ┃ ┃ ┣ 📜nextjs.json
+ ┃ ┃ ┣ 📜package.json
+ ┃ ┃ ┣ 📜react-library.json
+ ┃ ┃ ┗ 📜README.md
+ ┃ ┗ 📂ui
+ ┃ ┃ ┣ 📜Button.tsx
+ ┃ ┃ ┣ 📜index.tsx
+ ┃ ┃ ┣ 📜package.json
+ ┃ ┃ ┗ 📜tsconfig.json
+ ┣ 📜.eslintrc.js
+ ┣ 📜.gitignore
+ ┣ 📜.npmrc
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜README.md
+ ┗ 📜turbo.json
+```
